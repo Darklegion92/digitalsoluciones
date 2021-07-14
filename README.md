@@ -23,6 +23,10 @@ npm install
 npm run dev
 ## Ejecutando las pruebas ⚙️
 
+
+
+## Documentación 📋
+
 Ingresar al enlace http://localhost:3001/docs
 
 ## Despliegue 📦
