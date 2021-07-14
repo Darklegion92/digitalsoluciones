@@ -11,7 +11,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-Tener instalado mongoDB o desde el siguiente enlace https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-5.0.0-signed.msi
+Tener instalado mongoDB o puedes descargarlo desde el siguiente enlace https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-5.0.0-signed.msi
 ### Instalación 🔧
 
 En la carpera del directorio creado al clonar ejecutar lo sigueinte
