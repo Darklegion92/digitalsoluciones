@@ -31,7 +31,7 @@ Para construir el proyecto ejecutar
 
 npm build
 
-luego para inicailizarlo ejecutar
+luego para iniciarlo ejecutar
 
 npm start
 ## Autores ✒️
