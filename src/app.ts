@@ -5,24 +5,10 @@ import cors from 'cors'
 import userRouter from './routes/user.routes'
 import logRouter from './routes/log.routes'
 import { saveLogs } from './middlewares/log.middleware'
+import swaggerOptions from './config/swagger.config'
 
 const swaggerJsDoc = require('swagger-jsdoc')
 const swaggerUi = require('swagger-ui-express')
-
-//https://swagger.io/specification/#oas-document
-const swaggerOptions = {
-    swaggerDefinition: {
-        info: {
-            title: 'Api Rest',
-            description: 'Api Rest Information',
-            contact: {
-                name: 'Jose Rodriguez'
-            },
-            servers: ['http://localhost:3001']
-        }
-    },
-    apis: ['./controllers/user.controller.ts']
-}
 
 //initializations
 const app = express()
@@ -34,7 +20,7 @@ app.set('port', process.env.PORT || 3001)
 //middlewares
 app.use(morgan('dev'))
 app.use(cors())
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs))
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs))
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 
