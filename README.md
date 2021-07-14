@@ -14,9 +14,10 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 Tener instalado mongoDB o puedes descargarlo desde el siguiente enlace https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-5.0.0-signed.msi
 ### Instalación 🔧
 
-En la carpera del directorio creado al clonar ejecutar lo sigueinte
+En la raiz del directorio creado al clonar ejecutar lo sigueinte
 
 npm i
+ó
 npm install
 
 npm run dev
